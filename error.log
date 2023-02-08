@@ -1,0 +1,5 @@
+PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'password' at row 1 in C:\xampp\htdocs\login\UserLogic.php:23
+Stack trace:
+#0 C:\xampp\htdocs\login\UserLogic.php(23): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\login\register.php(29): UserLogic::createUser(Array)
+#2 {main}
